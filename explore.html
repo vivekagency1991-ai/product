@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Explore — SHYAM SAROVAR</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page page-explore">
+  <div class="page-transition" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo-link" href="index.html">
+        <img src="logo22.png" alt="Shyam Sarovar" class="site-logo">
+      </a>
+
+      <nav class="nav">
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="explore.html" aria-current="page">Explore</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="explore-main">
+    <section class="explore-top">
+      <h1>Explore Brands</h1>
+      <p class="muted">Search and filter products by brand or name.</p>
+    </section>
+
+    <!-- 🔍 Search Bar Section -->
+    <section class="search-section">
+      <div class="search-bar">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search products..."
+          aria-label="Search products"
+        />
+        <span class="search-icon">🔍</span>
+      </div>
+    </section>
+
+    <!-- Brand Buttons -->
+    <section class="brands" id="brandButtons">
+      <!-- Brand buttons injected by JS -->
+    </section>
+
+    <!-- Product Grid -->
+    <section class="items-grid" id="itemsGrid">
+      <!-- Items injected by JS -->
+    </section>
+
+    <section id="reviews" class="reviews">
+      <div class="card">
+        <h2>About Us & Reviews</h2>
+        <p>Shyam Sarovar started with a simple idea: find the best for your home. We partner with trusted brands and collect real reviews.</p>
+        <div class="reviews-list">
+          <blockquote>“Beautiful selection and fast delivery.” — Aarti</blockquote>
+          <blockquote>“Quality matches images, great support.” — Raj</blockquote>
+        </div>
+        <div class="credits small">Credits: Site design & demo code.</div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="credits">SHYAM SAROVAR — © <span id="year2"></span></div>
+        <div class="small-links"><a href="index.html">Back to Home</a></div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="explore.js" defer></script>
+  <script src="scripts.js" defer></script>
+</body>
+</html>

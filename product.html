@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Product — SHYAM SAROVAR</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page page-product">
+  <div class="page-transition" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo-link" href="index.html">
+        <img src="logo22.png" alt="Shyam Sarovar" class="site-logo">
+      </a>
+
+      <nav class="nav">
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="explore.html">Explore</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="product-page">
+    <section class="product-hero">
+      <img id="productImage" src="" alt="Product Image" class="product-img">
+      <div class="product-info">
+        <h1 id="productTitle">Product Title</h1>
+        <p id="productBrand" class="muted"></p>
+        <h2 id="productPrice">₹0</h2>
+        <p id="productDescription">Loading product details...</p>
+        <div class="product-actions">
+          <a href="explore.html" class="btn btn-ghost">Back to Explore</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="related-products">
+      <h2>Related Products</h2>
+      <div id="relatedItems" class="items-grid"></div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="credits">SHYAM SAROVAR — © <span id="year3"></span></div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="product.js" defer></script>
+  <script src="scripts.js" defer></script>
+</body>
+</html>
